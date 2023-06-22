@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.collap {
+    margin: 20px;
+    width: 40%;
+}
+
+.collap-container {
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 0px;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    border: 1px solid black;
+    opacity: 0;
+}
+
+.collap-text {
+    margin: 15px;
+}
+
+.active {
+    height: 130px;
+    overflow: clip;
+    opacity: 1;
+}
+
